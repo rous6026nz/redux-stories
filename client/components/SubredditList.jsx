@@ -9,6 +9,8 @@ const Subreddit = ({subreddits}) => (
       <Post
         key={i}
         title={post.title}
+        date={new Date(post.created_utc).toUTCString() }
+        content={post.selftext}
       />
     )}
   </div>

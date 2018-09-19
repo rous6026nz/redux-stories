@@ -30,6 +30,7 @@ export function fetchPosts (subreddit) {
     return request
       .get(`/api/v1/reddit/subreddit/${subreddit}`)
       .then(res => {
+        console.log(res.body)
         dispatch(receivePosts(res.body))
       })
       .catch(err => {
