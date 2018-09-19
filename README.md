@@ -1,7 +1,7 @@
 # Async Redux Stories 
 User stories for practice with async actions in Redux.
 
-##Install
+## Install
 Enter the commands below in your terminal to get started:
 
 ```shell
